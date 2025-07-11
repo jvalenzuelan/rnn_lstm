@@ -1,2 +1,4 @@
 # tesis_rnn_lstm
-Predicción de ejecución presupuestal en el MINEDU mediante Redes Neuronales LSTM
+Budget execution prediction in the Ministry of Education of the Republic of Peru using LSTM neural networks
+
+This study developed an LSTM-based predictive model to optimize budget execution in Peru’s Ministry of Education (MINEDU). Using annual data from SIAF-MEF (2009-2024), we compared LSTM’s performance against ARIMA. The model was implemented in Python 3.10 with TensorFlow 2.12, applying Min-Max normalization and temporal cross-validation. Results showed LSTM reduced RMSE by 47.3% (1,531,007 PEN vs. 2,904,248 PEN) and MAPE by 28.2% (9.23% vs. 12.86%) compared to ARIMA, exceeding the initial hypothesis of 15% improvement. This enables MINEDU to allocate resources more accurately, mitigating under-execution risks and aligning with SDG 4. The research validates AI’s role in public sector management and proposes scalability to other government entities. Keywords: budget execution, LSTM, public sector, MINEDU.
